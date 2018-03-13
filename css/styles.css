@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+img {
+  display: block;
+  width: 75%;
+  height: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type=text] {
+    width: auto;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: auto;
+}
+
+.ratings ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.ratings li {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+    font-family: 'Nanum Myeongjo', serif;
+    padding-left: 4em;
+}
+
+.alignleft {
+  float: left;
+  margin-left: 150px;
+  padding-bottom: 3rem;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  border-spacing: 2px;
+  background-color: #d2ae18;
+}
+
+.alignright {
+  margin-left: 450px;
+  margin-right: 150px;
+  padding-bottom: 3rem;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  background-color: #faeca5;
+}
+
+h2 {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+li {
+  font-family: 'PT Sans', sans-serif;
+}
+
+body {
+  margin-left: 160px;
+  margin-right: 160px;
+  font-size: 10px;
+  background-color: white;
+  padding: 2em;
+  border-style: solid;
+  border-width: 5px;
+}
+
+/* Tablet */
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 10px;
+  }
+  img {
+    image.resize: height auto;
+    image.resize: width auto;
+    align-self: center;
+    padding-bottom: 2em;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+  img {
+    image.resize: height auto;
+    image.resize: width auto;
+    align-self: center;
+  }
+}
